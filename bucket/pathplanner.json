@@ -19,6 +19,12 @@
     },
     "bin": "pathplanner.exe",
     "checkver": "github",
+    "shortcuts": [
+        [
+            "pathplanner.exe",
+            "Pathplanner 2023"
+        ]
+    ],
     "autoupdate": {
         "architecture": {
             "64bit": {
