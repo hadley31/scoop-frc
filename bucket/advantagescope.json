@@ -20,7 +20,7 @@
         ]
     },
     "uninstaller": {
-        "script": ""
+        "script": "Start-Process \"$dir\\Uninstall AdvantageScope.exe\" -ArgumentList '/S' -Wait | Out-Null"
     },
     "bin": "AdvantageScope.exe",
     "shortcuts": [
