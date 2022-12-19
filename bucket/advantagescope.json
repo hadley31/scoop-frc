@@ -23,12 +23,6 @@
         "script": "Start-Process \"$dir\\Uninstall AdvantageScope.exe\" -ArgumentList '/S' -Wait | Out-Null"
     },
     "bin": "AdvantageScope.exe",
-    "shortcuts": [
-        [
-            "AdvantageScope.exe",
-            "AdvantageScope"
-        ]
-    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
