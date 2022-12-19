@@ -2,7 +2,9 @@
 
 [![Tests](https://github.com/hadley31/scoop-frc/actions/workflows/ci.yml/badge.svg)](https://github.com/hadley31/scoop-frc/actions/workflows/ci.yml) [![Excavator](https://github.com/hadley31/scoop-frc/actions/workflows/excavator.yml/badge.svg)](https://github.com/hadley31/scoop-frc/actions/workflows/excavator.yml)
 
-A [Scoop](https://scoop.sh) bucket repository for open source FRC software.
+A [scoop](https://scoop.sh) bucket for open source FRC software.
+
+> **Please note these manifests are _not_ maintained by the original app developers.** If you experience any issues installing software from this scoop bucket, **please create [an issue](https://github.com/hadley31/scoop-frc/issues/new/choose) in this repo!**
 
 How do I install these manifests?
 ---------------------------------
