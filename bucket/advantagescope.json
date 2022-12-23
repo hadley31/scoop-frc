@@ -10,7 +10,7 @@
         },
         "arm64": {
             "url": "https://github.com/Mechanical-Advantage/AdvantageScope/releases/download/v2.0.0-beta-2/advantagescope-win-arm64-v2.0.0-beta-2.exe",
-            "hash": "d0afccd340fa53110eb3f311c0a5e260947045d2a672fa9aca1a3d5fcd4b8065"
+            "hash": "0c103954fb6caf1a414449fd865b54ae5bfbd5176a3cd81e6c2bc0088f5fd665"
         }
     },
     "installer": {
