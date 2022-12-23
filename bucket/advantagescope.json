@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Mechanical-Advantage/AdvantageScope/releases/download/v2.0.0-beta-2/advantagescope-win-x64-v2.0.0-beta-2.exe",
-            "hash": "a8cde37a767ae2fc3a5c65221245346e1dbd26faf63b96a881f8930406c59306"
+            "hash": "922403929cf77b31ce32ffdd419f27418f28c31480290636e769c0e37ae51d78"
         },
         "arm64": {
             "url": "https://github.com/Mechanical-Advantage/AdvantageScope/releases/download/v2.0.0-beta-2/advantagescope-win-arm64-v2.0.0-beta-2.exe",
