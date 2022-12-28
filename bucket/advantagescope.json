@@ -24,7 +24,7 @@
     },
     "bin": "AdvantageScope.exe",
     "checkver": {
-        "github": "https://github.com/Mechanical-Advantage/AdvantageScope",
+        "url": "https://api.github.com/repos/Mechanical-Advantage/AdvantageScope/releases",
         "regex": "/releases/tag/v\\d+\\.\\d+\\.\\d+(-\\w+)*"
     },
     "autoupdate": {
