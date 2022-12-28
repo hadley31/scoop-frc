@@ -8,23 +8,19 @@
             "url": "https://github.com/mjansen4857/pathplanner/releases/download/v2023.2.0/PathPlanner-Windows.zip",
             "hash": "6eee3007b3df06c60ea9f4d17da68914224fdf5d5526fe4081068f4f84b27bc5"
         },
-        "32bit": {
-            "url": "https://github.com/mjansen4857/pathplanner/releases/download/v2023.2.0/PathPlanner-Windows.zip",
-            "hash": "6eee3007b3df06c60ea9f4d17da68914224fdf5d5526fe4081068f4f84b27bc5"
-        },
         "arm64": {
             "url": "https://github.com/mjansen4857/pathplanner/releases/download/v2023.2.0/PathPlanner-Windows.zip",
             "hash": "6eee3007b3df06c60ea9f4d17da68914224fdf5d5526fe4081068f4f84b27bc5"
         }
     },
     "bin": "pathplanner.exe",
-    "checkver": "github",
     "shortcuts": [
         [
             "pathplanner.exe",
             "Pathplanner 2023"
         ]
     ],
+    "checkver": "/releases/tag/(?:v|V)?([\\d.-]+)",
     "autoupdate": {
         "architecture": {
             "64bit": {
