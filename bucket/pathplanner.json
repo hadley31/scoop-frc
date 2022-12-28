@@ -20,7 +20,10 @@
             "Pathplanner 2023"
         ]
     ],
-    "checkver": "/releases/tag/(?:v|V)?([\\d.-]+)",
+    "checkver": {
+        "github": "https://github.com/mjansen4857/pathplanner",
+        "regex": "/releases/tag/v\\d{4}\\.\\d+\\.\\d+(-\\w+)*"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {

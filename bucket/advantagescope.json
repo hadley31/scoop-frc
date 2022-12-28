@@ -23,7 +23,10 @@
         "script": "Start-Process \"$dir\\Uninstall AdvantageScope.exe\" -ArgumentList '/S' -Wait | Out-Null"
     },
     "bin": "AdvantageScope.exe",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/Mechanical-Advantage/AdvantageScope",
+        "regex": "/releases/tag/v\\d{4}\\.\\d+\\.\\d+(-\\w+)*"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
