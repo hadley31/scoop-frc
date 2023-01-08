@@ -1,16 +1,16 @@
 {
-    "version": "2023.2.0",
+    "version": "2023.3.0",
     "description": "A simple yet powerful motion profile generator for FRC robots",
     "homepage": "https://github.com/mjansen4857/pathplanner",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mjansen4857/pathplanner/releases/download/v2023.2.0/PathPlanner-Windows.zip",
-            "hash": "6eee3007b3df06c60ea9f4d17da68914224fdf5d5526fe4081068f4f84b27bc5"
+            "url": "https://github.com/mjansen4857/pathplanner/releases/download/v2023.3.0/PathPlanner-Windows.zip",
+            "hash": "206115c3c22dfa4ddd6afab7236c2d0a2b1972a02d78bbdaeeaee60b9dd2eb09"
         },
         "arm64": {
-            "url": "https://github.com/mjansen4857/pathplanner/releases/download/v2023.2.0/PathPlanner-Windows.zip",
-            "hash": "6eee3007b3df06c60ea9f4d17da68914224fdf5d5526fe4081068f4f84b27bc5"
+            "url": "https://github.com/mjansen4857/pathplanner/releases/download/v2023.3.0/PathPlanner-Windows.zip",
+            "hash": "206115c3c22dfa4ddd6afab7236c2d0a2b1972a02d78bbdaeeaee60b9dd2eb09"
         }
     },
     "bin": "pathplanner.exe",
