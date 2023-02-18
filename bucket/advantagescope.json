@@ -1,16 +1,16 @@
 {
-    "version": "2.2.1",
+    "version": "2.2.2",
     "description": "AdvantageScope is a robot diagnostics, log review/analysis, and data visualization application for FIRST Robotics Competition teams",
     "homepage": "https://github.com/Mechanical-Advantage/AdvantageScope",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Mechanical-Advantage/AdvantageScope/releases/download/v2.2.1/advantagescope-win-x64-v2.2.1.exe",
-            "hash": "8190c24dfb771c0856e42eb9c7ec01431ca8a88a9cd4c809e9daffe1a07d4c30"
+            "url": "https://github.com/Mechanical-Advantage/AdvantageScope/releases/download/v2.2.2/advantagescope-win-x64-v2.2.2.exe",
+            "hash": "d38567a58149c72f38b072d7b71b59c7dc9f4646f55aeea14fc4424800fa4517"
         },
         "arm64": {
-            "url": "https://github.com/Mechanical-Advantage/AdvantageScope/releases/download/v2.2.1/advantagescope-win-arm64-v2.2.1.exe",
-            "hash": "7b32129e33535e0ba3cc219199968ee54323e5e497f2fbb284dd3c501a967bfd"
+            "url": "https://github.com/Mechanical-Advantage/AdvantageScope/releases/download/v2.2.2/advantagescope-win-arm64-v2.2.2.exe",
+            "hash": "3cb1e27da4e065c337233142bc6ff79b95b6db80b5d164b460a20562c06a6897"
         }
     },
     "installer": {
