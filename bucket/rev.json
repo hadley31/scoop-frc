@@ -1,0 +1,40 @@
+{
+    "version": "1.5.2",
+    "description": "REV Hardware Client",
+    "homepage": "https://github.com/REVrobotics/REV-Software-Binaries",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/REVrobotics/REV-Software-Binaries/releases/download/rhc-1.5.2/REV-Hardware-Client-Setup-1.5.2.exe",
+            "hash": "75ff78adf3879b45f68f051e3f106cd6f39aeef5f5c41ebf08c499c569a81f8e"
+        },
+        "arm64": {
+            "url": "https://github.com/REVrobotics/REV-Software-Binaries/releases/download/rhc-1.5.2/REV-Hardware-Client-Setup-1.5.2.exe",
+            "hash": "75ff78adf3879b45f68f051e3f106cd6f39aeef5f5c41ebf08c499c569a81f8e"
+        }
+    },
+    "installer": {
+        "script": [
+            "Start-Process \"$dir\\$fname\" \"/S /D=$dir\" -PassThru -NoNewWindow | Wait-Process",
+            "Remove-Item \"$dir\\$fname\""
+        ]
+    },
+    "uninstaller": {
+        "script": "Start-Process \"$dir\\Uninstall REV Hardware Client.exe\" -ArgumentList '/S' -Wait | Out-Null"
+    },
+    "bin": "REV Hardware Client.exe",
+    "checkver": {
+        "url": "https://api.github.com/repos/REVrobotics/REV-Software-Binaries/releases",
+        "regex": "/releases/tag/rhc-(\\d+\\.\\d+\\.\\d+(?:-\\w+)*)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/REVrobotics/REV-Software-Binaries/releases/download/rhc-$version/REV-Hardware-Client-Setup-$version.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/REVrobotics/REV-Software-Binaries/releases/download/rhc-$version/REV-Hardware-Client-Setup-$version.exe"
+            }
+        }
+    }
+}
