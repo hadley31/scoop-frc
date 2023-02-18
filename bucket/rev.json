@@ -2,7 +2,7 @@
     "version": "1.5.2",
     "description": "REV Hardware Client",
     "homepage": "https://github.com/REVrobotics/REV-Software-Binaries",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "architecture": {
         "64bit": {
             "url": "https://github.com/REVrobotics/REV-Software-Binaries/releases/download/rhc-1.5.2/REV-Hardware-Client-Setup-1.5.2.exe",
