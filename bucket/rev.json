@@ -3,7 +3,6 @@
     "description": "REV Hardware Client",
     "homepage": "https://github.com/REVrobotics/REV-Software-Binaries",
     "license": "Apache-2.0",
-    "depends": "sudo",
     "architecture": {
         "64bit": {
             "url": "https://github.com/REVrobotics/REV-Software-Binaries/releases/download/rhc-1.5.3/REV-Hardware-Client-Setup-1.5.3.exe",
@@ -16,12 +15,12 @@
     },
     "installer": {
         "script": [
-            "sudo Start-Process \"$dir\\$fname\" \"/S /D=$dir\" -PassThru -NoNewWindow | Wait-Process",
+            "Start-Process \"$dir\\$fname\" \"/S /D=$dir\" -PassThru -NoNewWindow | Wait-Process",
             "Remove-Item \"$dir\\$fname\""
         ]
     },
     "uninstaller": {
-        "script": "sudo Start-Process \"$dir\\Uninstall REV Hardware Client.exe\" -ArgumentList '/S' -Wait | Out-Null"
+        "script": "Start-Process \"$dir\\Uninstall REV Hardware Client.exe\" -ArgumentList '/S' -Wait | Out-Null"
     },
     "bin": ["REV Hardware Client.exe", "revhc"],
     "checkver": {
