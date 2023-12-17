@@ -27,12 +27,6 @@
         "url": "https://api.github.com/repos/REVrobotics/REV-Software-Binaries/releases",
         "regex": "/releases/tag/rhc-(\\d+\\.\\d+\\.\\d+(?:-\\w+\\.)*)"
     },
-    "shortcuts": [
-        [
-            "REV Hardware Client.exe",
-            "REV Hardware Client"
-        ]
-    ],
     "autoupdate": {
         "architecture": {
             "64bit": {
