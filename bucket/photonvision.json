@@ -19,7 +19,7 @@
     "bin": "photonvision.jar",
     "checkver": {
         "url": "https://api.github.com/repos/PhotonVision/photonvision/releases",
-        "regex": "/releases/tag/v(\\d{4}\\.\\d+\\.\\d+(?:-\\w+)*)"
+        "regex": "/releases/tag/v(\\d{4}\\.\\d+\\.\\d+(?:-\\w+\\.)*)"
     },
     "autoupdate": {
         "architecture": {
