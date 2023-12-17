@@ -17,7 +17,7 @@
     "shortcuts": [
         [
             "pathplanner.exe",
-            "Pathplanner 2023"
+            "Pathplanner $version"
         ]
     ],
     "checkver": {
