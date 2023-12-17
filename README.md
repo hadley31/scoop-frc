@@ -8,10 +8,24 @@ A [scoop](https://scoop.sh) bucket for open source FRC software.
 
 How do I install these manifests?
 ---------------------------------
-
-To add this bucket, run `scoop bucket add frc https://github.com/hadley31/scoop-frc`.
-
-To install an application, do `scoop install <manifest>`.
+1. Open Powershell
+1. Install Scoop (if it is not already installed)
+    ```sh
+    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+    irm get.scoop.sh | iex
+    ```
+1. Add this bucket to scoop
+    ```sh
+    scoop bucket add frc https://github.com/hadley31/scoop-frc
+    ```
+1. Install an FRC application
+    ```sh
+    scoop install pathplanner
+    ```
+1. Run the application
+    ```sh
+    pathplanner
+    ```
 
 How do I contribute new manifests?
 ----------------------------------
