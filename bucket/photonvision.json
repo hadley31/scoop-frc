@@ -17,7 +17,7 @@
         }
     },
     "bin": "photonvision.jar",
-    "pre_install": "mv photonvision-v$version-winx64.jar photonvison.jar",
+    "pre_install": "mv $dir\\photonvision-v$version-winx64.jar $dir\\photonvison.jar",
     "checkver": {
         "url": "https://api.github.com/repos/PhotonVision/photonvision/releases",
         "regex": "/releases/tag/v(\\d{4}\\.\\d+\\.\\d+(?:-\\w+)*)"
